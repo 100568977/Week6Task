@@ -11,7 +11,7 @@ namespace Week6Task.Controllers
     {
         public ActionResult Index()
         {
-            //Hello
+            //Hello bye
             return View();
         }
 
