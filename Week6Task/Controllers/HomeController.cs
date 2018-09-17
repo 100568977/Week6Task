@@ -10,8 +10,7 @@ namespace Week6Task.Controllers
     public class HomeController : Controller
     {
         public ActionResult Index()
-        {
-            //Hello bye
+        { 
             return View();
         }
 
@@ -19,7 +18,7 @@ namespace Week6Task.Controllers
         {
             ViewBag.Message = "Your application description page.";
 
-            return View();
+            return View();//asdfg
         }
 
         public ActionResult Contact()
